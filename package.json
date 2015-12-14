@@ -1,0 +1,28 @@
+{
+  "name": "workspace",
+  "version": "0.0.1",
+  "description": "test restapi con express y mongodb y SNMP",
+  "main": "app.js",
+  "dependencies": {
+    "express": "~4.7.1",
+    "mongoose": "~3.6.11",
+    "method-override": "^2.1.2",
+    "body-parser": "~1.12.0",
+    "snmp-native": "~1.0.18"
+  },
+  "scripts": {
+    "test": "node index.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "restapi",
+    "rest",
+    "api",
+    "nodejs",
+    "express",
+    "snmp",
+    "mongodb"
+  ],
+  "author": "litocruz",
+  "license": "BSD-2-Clause"
+}
